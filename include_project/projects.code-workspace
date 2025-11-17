@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "projects",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"workbench.settings.editor": "json",
+		"cmake.buildDirectory": "${build_folder}",
+		"cmake.buildTask": false,
+		"C_Cpp.autocomplete": "default",
+		"C_Cpp.intelliSenseMemoryLimit": 16384,
+		"C_Cpp.default.intelliSenseMode": "macos-clang-x64",
+		"cmake.configureSettings": {},
+		"json.trace.server": "off",
+		"markdown.trace.server": "off",
+		"editor.accessibilityPageSize": 500
+	}
+}

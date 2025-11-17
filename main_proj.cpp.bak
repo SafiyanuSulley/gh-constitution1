@@ -1,0 +1,173 @@
+#include<iostream>
+#include<string>
+#include<utility>
+#include<limits>
+#include "/Users/safiyanusulley/projects/include_project/header.hpp"
+
+using namespace std;
+int main()
+{
+    string s,  article;
+    while(true)
+    {
+        cout<< "Enter Articles:";
+        cin >> article;
+        if(cin.fail())
+        {
+            cout<< "Flush buffer\n"; cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+           
+        }
+        if(article.empty() || !std::all_of(article.begin(), article.end(), ::isdigit)) // empty and not in the scope of digits
+        {
+            cout<< "Try again ";  cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            continue;
+        }
+            break;
+    }
+    if(article == "1")
+    {
+        cout<< "select menu:\n1.clause(1)\n2.clause(2)\n";
+        uint_least16_t choice;  cin >> choice;
+        if(cin.fail())
+        {
+            cout<< "overflow 1\n";  cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
+    
+        switch(choice)
+        {
+            case 1: Art_1::Clause_1(move(s)); break;
+            case 2: Art_1::Clause_2(move(s)); break;
+            default: cout<< "Invalid Input1\n";
+        }
+    }
+    if(article == "2")
+    {
+        cout<< "select menu:\n1.clause(1)\n2.section(a)\n3.section(b)\n4.clause(2)\n";
+        cout<< "5.clause(3)\n6.clause(4)\n7.clause(5)\n8.section(a)\n9.section(b)\n";
+        uint_least16_t choice;  cin >> choice;
+        if(cin.fail())
+        {
+            cout<< "overflow 2\n";  cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');     
+        }
+        switch(choice)
+        {
+            case 1: Art_2::Clause_1(move(s)); break;
+
+            case 2: Art_2::Clause_1(move(s));
+                    Art_2::Section_1a(move(s)); break;
+
+            case 3: Art_2::Clause_1(move(s));
+                    Art_2::Section_1b(move(s)); break;
+
+            case 4: Art_2::Clause_2(move(s)); break;
+            case 5: Art_2::Clause_3(move(s)); break;
+            case 6: Art_2::Clause_4(move(s)); break;
+            case 7: Art_2::Clause_5(move(s)); break;
+
+            case 8: Art_2::Clause_5(move(s));
+                    Art_2::Section_5a(move(s)); break;
+
+            case 9: Art_2::Clause_5(move(s));
+                    Art_2::Section_5b(move(s)); break;
+            default: cout<< "Invalid Input\n";
+        }
+    }
+    if(article == "3")
+    {
+        cout<< "select menu:\n1.clause(1\n2.clause(2)\n3.clause(3)\n4.section(a)\n5.section(b)\n";
+        cout<< "6.clause(4)\n7.section(a)\n8.section(b)\n9.clause(5)\n10.clause(6)\n11.clause(7)\n";
+        uint_least16_t choice;  cin >> choice;
+        if(cin.fail())
+        {
+            cout<< "overflow 3\n";  cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');    
+        }
+        switch(choice)
+        {
+            case 1: Art_3::Clause_1(move(s)); break;
+            case 2: Art_3::Clause_2(move(s)); break;
+            case 3: Art_3::Clause_3(move(s)); break;
+
+            case 4: Art_3::Clause_3(move(s));
+                    Art_3::Section_3a(move(s)); break;
+
+            case 5: Art_3::Clause_3(move(s));
+                    Art_3::Section_3b(move(s)); break;
+
+            case 6: Art_3::Clause_4(move(s)); break;
+
+            case 7: Art_3::Clause_4(move(s));
+                    Art_3::Section_4a(move(s)); break;
+
+            case 8: Art_3::Clause_4(move(s));
+                    Art_3::Section_4b(move(s)); break;
+
+            case 9: Art_3::Clause_5(move(s)); break;
+            case 10: Art_3::Clause_6(move(s)); break;
+            case 11: Art_3::Clause_7(move(s)); break;
+            default: cout<< "Invalid Input\n"; 
+        }
+    }
+    if(article == "4")
+    {
+        cout<< "select menu:\n1.clause(1)\n2.clause(2)\n";
+        uint_least16_t choice;  cin >> choice;
+        if(cin.fail())
+        {
+            cout<< "overflow 4\n";  cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');    
+        }
+        switch(choice)
+        {
+            case 1: Art_4::Clause_1(move(s)); break;
+            case 2: Art_4::Clause_2(move(s)); break;
+            default: cout<< "Invalid Input\n";
+        }
+    }
+    if(article == "5")
+    {
+        cout<< "select menu:\n1.clause(1)\n2.section(a)\n3.section(b)\n4.section(c)\n";
+        cout<< "5.clause(2)\n6.clause(3)\n7.clause(4)\n8.clause(5)\n9..clause(6)\n";
+        cout<< "10.clause(7)\n11.clause(8)\n";
+        uint_least16_t choice;  cin >> choice;
+        if(cin.fail())
+        {
+            cout<< "overflow 5\n";  cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
+        switch(choice)
+        {
+            case 1: Art_5::Clause_1(move(s)); break;
+
+            case 2: Art_5::Clause_1(move(s));
+                    Art_5::Section_1a(move(s)); break;
+
+            case 3: Art_5::Clause_1(move(s));
+                    Art_5::Section_1b(move(s)); break;
+
+            case 4: Art_5::Clause_1(move(s));              
+                    Art_5::Section_1c(move(s)); break;
+
+            case 5: Art_5::Clause_2(move(s)); break;
+            case 9: Art_5::Clause_3(move(s)); break;
+            case 10: Art_5::Clause_4(move(s)); break;
+            case 11: Art_5::Clause_5(move(s)); break;
+            case 12: Art_5::Clause_6(move(s)); break;
+            case 13: Art_5::Clause_7(move(s)); break;
+            case 14: Art_5::Clause_8(move(s)); break; 
+            default: cout<< "Invalid Input\n"; 
+        }
+    }
+
+
+
+
+
+
+
+
+}
