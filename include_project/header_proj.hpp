@@ -4,6 +4,7 @@
 #include<cstdint>
 using namespace std;
 
+
 namespace Art_1
 {
     extern uint_least16_t i, ii, iii, iv,
@@ -204,9 +205,7 @@ namespace Art_14
     void Section_1f(string text);
     void Section_1g(string text);
     void Clause_2(string text);
-    void Section_3a(string text);
-    void Section_3b(string text);
-    void Clause_3bis(string text);
+    void Clause_3(string text);
     void Clause_4(string text);
     void Clause_5(string text);
     void Clause_6(string text);
@@ -313,6 +312,358 @@ namespace Art_19
     void Clause_20(string text);
     void Clause_21(string text);
 }
+
+namespace Art_20
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Section_1a(string text);
+    void Section_1b(string text);
+    void Clause_2(string text);
+    void Section_2a(string text);
+    void Section_2b(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Section_4a(string text);
+    void Section_4b(string text);
+    void Section_4c(string text);
+    void Section_4d(string text);
+    void Section_4e(string text);
+    void Section_4f(string text);
+    void Clause_5(string text);
+    void Clause_6(string text);
+}
+
+namespace Art_21
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Section_1a(string text);
+    void Section_1b(string text);
+    void Section_1c(string text);
+    void Section_1d(string text);
+    void Section_1e(string text);
+    void Section_1f(string text);
+    void Section_1g(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Section_4a(string text);
+    void Section_4b(string text);
+    void Section_4c(string text);
+    void Section_4d(string text);
+    void Section_4e(string text);
+    void Clause_5(string text);
+    void Clause_6(string text);
+}
+
+namespace Art_22
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Section_3a(string text);
+    void Section_3b(string text);
+}
+
+namespace Art_23
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Article_23(string text);
+}
+
+namespace Art_24
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+}
+
+namespace Art_25
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Section_1a(string text);
+    void Section_1b(string text);
+    void Section_1c(string text);
+    void Section_1d(string text);
+    void Section_1e(string text);
+    void Clause_2(string text);
+}
+
+namespace Art_26
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+}
+
+namespace Art_27
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+}
+
+namespace Art_28
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Section_1a(string text);
+    void Section_1b(string text);
+    void Section_1c(string text);
+    void Section_1d(string text);
+    void Section_1e(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Clause_5(string text);
+}
+
+namespace Art_29
+{
+    extern uint_least16_t i, ii, iii, iv, 
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Clause_5(string text);
+    void Clause_6(string text);
+    void Clause_7(string text);
+    void Clause_8(string text);
+}
+
+namespace Art_30
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Article_30(string text);
+}
+
+namespace Art_31
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Clause_5(string text);
+    void Clause_6(string text);
+    void Clause_7(string text);
+    void Clause_8(string text);
+    void Clause_9(string text);
+    void Section_9a(string text);
+    void Section_9b(string text);
+    void Clause_10(string text);
+}
+
+namespace Art_32
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Section_1a(string text);
+    void Section_1b(string text);
+    void Section_1c(string text);
+    void Section_1d(string text);
+    void Section_1e(string text);
+    void Section_1f(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Section_4a(string text);
+    void Section_4b(string text);
+    void Section_4c(string text);
+    void Clause_5(string text);
+}
+
+namespace Art_33
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Clause_5(string text);
+}
+
+namespace Art_34
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+}
+
+namespace Art_35
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Clause_5(string text);
+    void Clause_6(string text);
+    void Section_6a(string text);
+    void Section_6b(string text);
+    void Section_6c(string text);
+    void Section_6d(string text);
+    void Section_6e(string text);
+    void Clause_7(string text);
+    void Clause_8(string text);
+    void Clause_9(string text);
+}
+
+namespace Art_36
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Section_2a(string text);
+    void Section_2b(string text);
+    void Section_2c(string text);
+    void Section_2d(string text);
+    void Section_2e(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Clause_5(string text);
+    void Clause_6(string text);
+    void Clause_7(string text);
+    void Clause_8(string text);
+    void Clause_9(string text);
+    void Clause_10(string text);
+    void Clause_11(string text);
+}
+
+namespace Art_37
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Section_2a(string text);
+    void Section_2b(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+    void Clause_5(string text);
+    void Section_6a(string text);
+    void Section_6b(string text);
+}
+
+namespace Art_38
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Section_3a(string text);
+    void Section_3b(string text);
+    void Section_3c(string text);
+}
+
+namespace Art_39
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Clause_1(string text);
+    void Clause_2(string text);
+    void Clause_3(string text);
+    void Clause_4(string text);
+}
+
+namespace Art_40
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Section_a(string text);
+    void Section_b(string text);
+    void Section_c(string text);
+    void Section_d(string text);
+    void Paragraph_i(string text);
+    void Paragraph_ii(string text);
+    void Paragraph_iii(string text);
+    void Paragraph_iv(string text);
+    void Paragraph_v(string text);
+}
+
+namespace Art_41
+{
+    extern uint_least16_t i, ii, iii, iv,
+    v, vi, vii, viii;
+    extern string text, t, s, article;
+
+    void Section_a(string text);
+    void Section_b(string text);
+    void Section_c(string text);
+    void Section_d(string text);
+    void Section_e(string text);
+    void Section_f(string text);
+    void Section_g(string text);
+    void Section_h(string text);
+    void Section_i(string text);
+    void Section_j(string text);
+    void Section_k(string text);
+}
+
+
+
 
 
 
